@@ -52,7 +52,7 @@ class UrTube:
             if nickname == i.nickname and hash(password) == i.password:
                 self.current_user = nickname
 
-    def log_out(self, *args):  # определяем метод для выхода из системы
+    def log_out(self):  # определяем метод для выхода из системы
         self.current_user = None
 
     def add(self, *args):
